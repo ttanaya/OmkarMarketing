@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.omkarmarketing.homepage">
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/customer"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CUSTOMER" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/vendor"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VENDOR" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/stocks"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="STOCKS" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/invoice"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="INVOICE" />
+
+        <Space android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/recovery"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="RECOVERY" />
+
+        <Space android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/payment"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PAYMENTS" />
+
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="0dp" />
+</LinearLayout>

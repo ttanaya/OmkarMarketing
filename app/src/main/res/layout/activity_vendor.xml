@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.owner.omkarmarketing.Vendor">
+
+    <TextView
+        android:id="@+id/ventxt"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/vendors"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <ListView
+        android:id="@+id/LV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/ventxt1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textAutoCorrect|textMultiLine|textPersonName|phone"-->
+        <!--android:text="Care Computers" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/ventxt2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Suntech Computers" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/ventxt3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Shree Stationars" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/ventext4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Jeet Stationars" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/ventext5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Prithvi Computers" />-->
+
+
+</LinearLayout>

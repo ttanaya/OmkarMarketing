@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.owner.omkarmarketing.customer">
+
+    <TextView
+        android:id="@+id/txtbra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Customer Branches"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/bra1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="SBI (Kranti Chowk)" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/bra2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="SBI (Garkheda)" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/bra3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="SBI (Waluj)" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/bra4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="SBI (Jalna)" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/bra5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="BankOfMaharashtra (Kranti Chowk)" />-->
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+
+   <!--<EditText-->
+        <!--android:id="@+id/bra6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="BankOfMaharshtra (Cidco)" />-->
+
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/bra7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="BankOfMaharashtra(RegionalOffice)" />-->
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText14"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Name" />-->
+    <!--<Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp" />-->
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

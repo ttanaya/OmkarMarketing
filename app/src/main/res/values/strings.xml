@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Omkar Marketing</string>
+    <string name="vendors">Vendors</string>
+
+    <string-array name="bank">
+        <item>SBI (Kranti Chowk)</item>
+        <item>SBI (Garkheda)</item>
+        <item>SBI (Waluj)</item>
+        <item>SBI (Jalna)</item>
+        <item>Bank of Maharashtra (Kranti Chowk)</item>
+        <item>Bank of Maharashtra (CIDCO)</item>
+        <item>Bank of Maharashtra (Regional office)</item>
+    </string-array>
+
+    <string-array name="vendors">
+        <item>Care Computers \n adressaskhdgasgdhjg \n 53479274645</item>
+        <item>Sunday Computers \n adressaskhdgasgdhjg \n 53479274645</item>
+        <item>Shri Stationaries \n adressaskhdgasgdhjg \n 53479274645</item>
+        <item>jeet Stationaries \n adressaskhdgasgdhjg \n 53479274645</item>
+        <item>Prithvi Computers \n adressaskhdgasgdhjg \n 53479274645</item>
+    </string-array>
+</resources>
